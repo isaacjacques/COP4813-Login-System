@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS cop4813_assignment5;
+USE cop4813_assignment5;
+
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(20) NOT NULL UNIQUE,
+    password_hash VARCHAR(50) NOT NULL
+);
