@@ -14,7 +14,6 @@ $_SESSION['last_activity'] = time();
 <head>
     <meta charset="UTF-8">
     <title>Admin Area</title>
-    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <h2>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h2>
