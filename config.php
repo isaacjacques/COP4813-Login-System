@@ -2,7 +2,7 @@
 $db_host = 'localhost';
 $db_name = 'cop4813_assignment5';
 $db_user = 'root';
-$db_pass = '';
+$db_pass = 'Passw0rd!369';
 
 function get_db_connection() {
     global $db_host, $db_user, $db_pass, $db_name;
